@@ -63,10 +63,8 @@ accounts:
   - id: toddle
     name: Toddle
     urls:
-      - url: https://web.toddleapp.com/platform/133021750412738883/circulars
-        note: School announcements.
-      - url: https://web.toddleapp.com/platform/133021750412738883/courses
-        note: Assignments and deadlines, Progress reports и доступные карточки.
+      - url: https://web.toddleapp.com/platform/
+        note: Главная Toddle. После входа проверь School announcements, Courses, задания и Progress reports.
     what_to_check:
       - School announcements, Upcoming, Overdue, Not submitted и Progress reports
 
