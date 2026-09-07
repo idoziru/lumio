@@ -1,0 +1,20 @@
+{
+  "name": "lumio_school_hub",
+  "interface": {
+    "displayName": "Lumio School Hub"
+  },
+  "plugins": [
+    {
+      "name": "lumio-school-hub",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lumio-school-hub"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

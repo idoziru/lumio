@@ -1,0 +1,88 @@
+# Постоянные источники Lumio Private School. Логины и пароли здесь не хранятся.
+school:
+  name: Lumio Private School
+  country: Cyprus, Paphos
+  domain: lumio.school
+  child: ""
+  grade: ""
+  year: ""
+
+accounts:
+  - id: managebac
+    name: ManageBac
+    urls:
+      - url: https://lumioprivateschool.managebac.com/parent/notifications
+        note: Все объявления школы и посты учителей. Начинать проверку отсюда.
+      - url: https://lumioprivateschool.managebac.com/parent
+        note: Дашборд родителя.
+      - url: https://lumioprivateschool.managebac.com/parent/calendar
+        note: Школьный календарь.
+      - url: https://lumioprivateschool.managebac.com/parent/academics/child_profile
+        note: Профиль ребёнка, Attendance & Timetable и Reports.
+      - url: https://lumioprivateschool.managebac.com/parent/academics/timetables
+        note: Посещаемость по периодам и недельное расписание.
+      - url: https://lumioprivateschool.managebac.com/parent/academics/reports
+        note: Табели и отчёты об успеваемости.
+      - url: https://lumioprivateschool.managebac.com/parent/academics/portfolio
+        note: Портфолио ребёнка.
+      - url: https://lumioprivateschool.managebac.com/parent/pa
+        note: Parents Association.
+      - url: https://lumioprivateschool.managebac.com/parent/pa/files
+        note: Файлы Parents Association, включая School Policies.
+      - url: https://lumioprivateschool.managebac.com/parent/pa/discussions
+        note: Дискуссии Parents Association.
+      - url: https://lumioprivateschool.managebac.com/parent/ib/discussions
+        note: Дискуссии год-группы.
+      - url: https://lumioprivateschool.managebac.com/parent/classes/13038483
+        note: Основной Home Room.
+      - url: https://lumioprivateschool.managebac.com/parent/classes/13038483/discussions
+        note: Дискуссии Home Room.
+      - url: https://lumioprivateschool.managebac.com/parent/classes/13038487
+        note: Greek class.
+      - url: https://lumioprivateschool.managebac.com/guide
+        note: Guides & Handbooks.
+    what_to_check:
+      - Notifications, календарь, посещаемость, оценки, Reports и Portfolio
+      - Задания, материалы и сообщения доступных классов
+      - Новые файлы и политики Parents Association
+
+  - id: clipboard
+    name: Clipboard
+    urls:
+      - url: https://portal.clipboard.app/lumio/activity-selection
+        note: ASP-клубы, столовая, лагеря и статусы бронирований.
+      - url: https://portal.clipboard.app/lumio/calendar
+        note: Расписание занятий ребёнка.
+      - url: https://portal.clipboard.app/lumio/account
+        note: Счета и Credit Balance.
+      - url: https://portal.clipboard.app/lumio/cart
+        note: Неоплаченная корзина.
+    what_to_check:
+      - Брони, места, дедлайны, счета, оплаты и расписание клубов
+
+  - id: toddle
+    name: Toddle
+    urls:
+      - url: https://web.toddleapp.com/platform/133021750412738883/circulars
+        note: School announcements.
+      - url: https://web.toddleapp.com/platform/133021750412738883/courses
+        note: Assignments and deadlines, Progress reports и доступные карточки.
+    what_to_check:
+      - School announcements, Upcoming, Overdue, Not submitted и Progress reports
+
+  - id: website
+    name: Сайт школы Lumio
+    urls:
+      - url: https://lumio.school
+        note: Главная и Latest news.
+    what_to_check:
+      - Latest news и Community
+
+  - id: gmail
+    name: Gmail родителя
+    urls: []
+    what_to_check:
+      - "from:lumio.school"
+      - "from:managebac"
+      - "from:toddle"
+      - "from:clipboard"

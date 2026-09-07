@@ -1,0 +1,22 @@
+{
+  "name": "lumio-school-hub",
+  "version": "0.3.0",
+  "description": "Проверка школьных новостей, документов, календаря и почты без отправки сообщений.",
+  "author": {
+    "name": "Lumio School Hub"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lumio School Hub",
+    "shortDescription": "Школьные новости, документы и календарь.",
+    "longDescription": "Помогает родителю проверять школьные источники, вести календарь и готовить отчёты с источниками.",
+    "developerName": "Lumio School Hub",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Настрой Lumio School Hub для моей семьи.",
+      "Проверь школьные новости и подготовь отчёт.",
+      "Покажи ближайшие школьные даты и дедлайны."
+    ]
+  }
+}
